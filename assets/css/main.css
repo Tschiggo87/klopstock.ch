@@ -3411,6 +3411,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			padding: 3.5rem 3.5rem 2rem 3.5rem ;
+
 		}
 
 		.panel.spotlight .image {
@@ -3687,3 +3688,16 @@ input, select, textarea {
 			}
 
 	}
+
+.logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 50px 100px;
+	width: 100px;
+	/* Breite des Logos */
+	height: 100px;
+	/* Höhe des Logos */
+	background: url("images/logo.png") no-repeat center;
+	background-size: contain;
+}
