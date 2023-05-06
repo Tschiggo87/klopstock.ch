@@ -3348,6 +3348,10 @@ input, select, textarea {
 			flex-basis: 40%;
 		}
 
+		.logo {
+			display: none;
+		}
+
 	}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
@@ -3379,6 +3383,10 @@ input, select, textarea {
 			-webkit-flex-direction: column-reverse;
 			-ms-flex-direction: column-reverse;
 			flex-direction: column-reverse;
+		}
+
+		.logo {
+			display: none;
 		}
 
 	}
