@@ -216,7 +216,7 @@ input, select, textarea {
 			z-index: -1;
 			background-attachment: fixed;
 			background-color: #e1e6e1;
-			background-image: url("../../images/overlay.png"), url("../../images/bg_black.png");
+			background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
@@ -3708,4 +3708,8 @@ input, select, textarea {
 	/* Höhe des Logos */
 	background: url("images/logo.png") no-repeat center;
 	background-size: contain;
+}
+
+.highlighter{
+	color: #bf645b;
 }
