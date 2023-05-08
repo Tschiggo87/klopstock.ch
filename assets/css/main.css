@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: scroll;
+		overflow-y: hidden;
+		-webkit-overflow-scrolling: touch;
 }
 
 ol, ul {
@@ -1642,7 +1645,7 @@ input, select, textarea {
 			input[type="button"].primary.color1,
 			button.primary.color1,
 			.button.primary.color1 {
-				color: #726193 !important;
+				color: #BF645B !important;
 			}
 
 			input[type="submit"].primary.color2,
@@ -3720,11 +3723,18 @@ input, select, textarea {
 	background-size: contain;
 }
 
+.home-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	margin: 0;
+}
+
 .highlighter{
 	color: #bf645b;
 }
 
-/* M */
+/* Menu Icons */
 
 .menu-icons{
 	margin-right: 10px;
@@ -3743,7 +3753,7 @@ input, select, textarea {
 .menu-icon-container path {
 	fill: transparent;
 	stroke: #fff;
-	stroke-width: 10;
+	stroke-width: 8;
 }
 
 .menu-icon-container .menu-icons.drinks path{
