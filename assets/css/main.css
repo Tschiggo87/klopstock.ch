@@ -305,7 +305,6 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		color: inherit;
-		border-bottom: dotted 1px;
 		text-decoration: none;
 	}
 
@@ -3724,3 +3723,59 @@ input, select, textarea {
 .highlighter{
 	color: #bf645b;
 }
+
+/* M */
+
+.menu-icons{
+	margin-right: 10px;
+}
+.menu-icon-container{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-icon-container{
+	width: 5em;
+}
+
+.menu-icon-container path {
+	fill: transparent;
+	stroke: #fff;
+	stroke-width: 10;
+}
+
+.menu-icon-container .menu-icons.drinks path{
+	stroke-dasharray: 2075;
+	stroke-dashoffset: 0;
+}
+
+.menu-icon-container .menu-icons.drinks:hover path{
+	animation: animate-drinks 1.5s linear forwards;
+}
+@keyframes animate-drinks{
+	0%
+	{
+		stroke-dashoffset: 0;
+		
+	}
+	40%
+	{
+		stroke-dashoffset: 2075;
+		
+	}
+	80%
+	{
+		stroke-dashoffset: 4150;
+		fill: transparent;
+		
+	}
+	100%
+	{
+		stroke-dashoffset: 4150;
+		fill: #BF645B;
+		
+	}
+}
+
