@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	overflow-x: scroll;
-		overflow-y: hidden;
-		-webkit-overflow-scrolling: touch;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
 }
 
 ol, ul {
